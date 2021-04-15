@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home'
-
+import Contato from '../views/Contato'
 Vue.use(VueRouter)
 
 const routes = [
@@ -10,6 +10,11 @@ const routes = [
     name: 'Home',
     component: Home
   },
+  {
+    path: '/contato',
+    name: 'contato',
+    component: Contato
+  }
 ]
 
 const router = new VueRouter({
