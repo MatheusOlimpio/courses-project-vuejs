@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home'
 import Contato from '../views/Contato'
 import Cursos from '../views/Cursos'
+
 Vue.use(VueRouter)
 
 const routes = [
