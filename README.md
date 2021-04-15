@@ -1,4 +1,4 @@
-# exercicio-router
+# Project: Courses TechLead
 Project based on studies using Framework Vue
 
 ## Project setup
