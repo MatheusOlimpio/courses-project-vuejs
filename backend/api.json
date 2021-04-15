@@ -1,0 +1,22 @@
+{
+  "home" : {
+    "id":"home",
+    "nome":"Home",
+    "descricao": "Essa e a pagina home"
+  },
+  "contato" : {
+    "id":"contato",
+    "nome":"Contato",
+    "descricao": "Essa e a pagina de Contato"
+  }, 
+  "cursos": [
+    {
+      "id": "html-e-css",
+      "nome": "HTML e CSS"
+    },
+    {
+      "id": "javascript",
+      "nome": "Javascript"
+    }    
+  ]
+}
