@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HeaderBar/>
-    <router-view></router-view>
+    <router-view class="container"></router-view>
   </div>
 </template>
 
@@ -37,6 +37,12 @@ a{
 
 a.router-link-exact-active {
   color: #2A9D8F;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 </style>
