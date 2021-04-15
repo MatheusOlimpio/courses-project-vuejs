@@ -10,4 +10,6 @@ yarn install
 ```
 yarn serve
 ```
-
+### Backend
+Backend in this project was created develop using json-server
+For more: https://github.com/typicode/json-server
