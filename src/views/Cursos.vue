@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="loading">Loading...</div>
+    <PageLoading v-if="loading"/>     
     <div v-if="api">
       <h1>Cursos</h1>
       {{ api }}
