@@ -51,7 +51,23 @@ a.router-link-exact-active {
 }
 
 .page-enter-active {
-  transition: all .7s;
+  transition: all .2s;
+}
+
+img { 
+  max-width: 100%;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr minmax(200px, 400px);
+  grid-gap: 30px;
+}
+
+@media screen and (max-width: 600px){
+  .conteudo {
+    display: block;
+  }
 }
 
 </style>
