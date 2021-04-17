@@ -4,7 +4,22 @@
     <transition name="page">
       <div v-if="api">
         <h1>Contato</h1>
-        {{ this.api }}
+        <p>{{api.titulo}}</p>
+        <p>{{api.descricao}}</p>
+        <ul>
+          <li>
+            <b>Email:</b>
+            {{api.contato.email}}
+          </li>
+          <li>
+            <b>Telefone:</b> 
+            {{api.contato.telefone}}
+          </li>
+          <li>
+            <b>Endereco:</b> 
+            {{api.contato.endereco}}
+          </li>          
+        </ul>
       </div>
     </transition>
   </div>
