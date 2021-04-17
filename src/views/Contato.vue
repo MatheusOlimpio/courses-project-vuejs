@@ -1,10 +1,12 @@
 <template>
   <div>
     <PageLoading v-if="loading"/>
-    <div v-if="api">
-      <h1>Contato</h1>
-      {{ this.api }}
-    </div>
+    <transition name="page">
+      <div v-if="api">
+        <h1>Contato</h1>
+        {{ this.api }}
+      </div>
+    </transition>
   </div>
 </template>
 

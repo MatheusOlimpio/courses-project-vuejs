@@ -15,7 +15,7 @@ export default {
         setTimeout(() => {
           this.api = data;
           this.loading = false;
-        }, 1500);
+        }, 500);
 
       }); 
     }

@@ -5,6 +5,7 @@
         <router-link to="/">TechLead</router-link>
       </div>
       <ul>
+        <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/cursos">Cursos</router-link></li>
         <li><router-link to="/contato">Contatos</router-link></li>      </ul>
     </nav>

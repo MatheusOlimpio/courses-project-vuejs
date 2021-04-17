@@ -1,10 +1,12 @@
 <template>
   <div>
-    <PageLoading v-if="loading"/>     
-    <div v-if="api">
-      <h1>Cursos</h1>
-      {{ api }}
-    </div>
+    <PageLoading v-if="loading" />
+    <transition name="page">
+      <div v-if="api">
+        <h1>Cursos</h1>
+        {{ api }}
+      </div>
+    </transition>
   </div>
 </template>
 

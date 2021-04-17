@@ -45,4 +45,13 @@ a.router-link-exact-active {
   padding: 20px;
 }
 
+.page-enter {
+  opacity: 0;
+  transform: translate3d(-50px, 0, 0);
+}
+
+.page-enter-active {
+  transition: all .7s;
+}
+
 </style>
